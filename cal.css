@@ -4,14 +4,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: skyblue;
+    background-color: whitesmoke;
     margin: 0;
   }
   
   .calculator {
     border: 1px solid black;
     width: 300px;
-    background: greenyellow;
+    background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
@@ -26,7 +26,7 @@ body {
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    background: pink;
+    background: whitesmoke;
   }
   
   .buttons {
@@ -39,7 +39,7 @@ body {
     width: 100%;
     height: 50px;
     font-size: 1.2em;
-    background: skyblue;
+    background: rgb(230, 213, 247);
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
@@ -52,11 +52,11 @@ body {
   
   button.equal {
     grid-column: span 3;
-    background: pink;
+    background: whitesmoke;
   }
   
   button.equal:hover {
-    background: skyblue;
+    background: rgb(230, 213, 247);
   }
   h2{
     color: black;
